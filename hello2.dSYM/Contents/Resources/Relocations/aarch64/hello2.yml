@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/naohi/cpp-learning/hello2'
+relocations:     []
+...
