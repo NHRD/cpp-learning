@@ -20,4 +20,10 @@ int main(){
     cout << (a | b) << endl; // Bitwise OR
     cout << (a ^ b) << endl; // Bitwise XOR
     cout << (~a) << endl; // Bitwise NOT
+
+    int c = 5;
+    cout << (c << 1) << endl; // Left shift
+    cout << (c >> 1) << endl; // Right shift
+    cout << (c << 2) << endl; // Left shift
+    cout << (c >> 2) << endl; // Right shift
 }
