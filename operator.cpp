@@ -26,4 +26,13 @@ int main(){
     cout << (c >> 1) << endl; // Right shift
     cout << (c << 2) << endl; // Left shift
     cout << (c >> 2) << endl; // Right shift
+
+    int m = 0;
+    cout << (m = 1, m + 2) << endl; // Comma operator
+
+    int n = 1;
+    int o = --n;
+    int p = --n;
+    n = o / p;
+    cout << n << endl; // Output: 0
 }
