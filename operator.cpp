@@ -14,4 +14,10 @@ int main(){
     cout << (!(2 < 1)) << endl;
     cout << (1 < 2 && 0) << endl;
     cout << (0 || 1 < 2) << endl;
+    
+    int a = 5, b = 3;
+    cout << (a & b) << endl; // Bitwise AND
+    cout << (a | b) << endl; // Bitwise OR
+    cout << (a ^ b) << endl; // Bitwise XOR
+    cout << (~a) << endl; // Bitwise NOT
 }
