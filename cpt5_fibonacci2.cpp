@@ -14,5 +14,7 @@ int fibonacci(int n) {
 }
 
 int main(){
-    cout << fibonacci(10) << endl;
+    for(int i = 1; i <= 10; ++i){
+    cout << fibonacci(i) << endl;
+    }
 }
