@@ -7,7 +7,7 @@ int factorial(int n){
 }
 
 int main(){
-    for(int i = 1; i <= 5; ++i){
+    for(int i = 1; i <= 15; ++i){
         cout << "f(" << i << ") = " << factorial(i) << endl;
     }
 }
