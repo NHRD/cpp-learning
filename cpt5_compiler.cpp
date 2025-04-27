@@ -6,7 +6,7 @@ int main() {
         cout << "Visual C++" <<endl;
     #endif
 
-    #if (defined(__GNUC__)) && !(defined(__cland__) || defined(__ICC))
+    #if (defined(__GNUC__)) && !(defined(__clang__) || defined(__ICC))
         cout << "GNU C++" << endl;
     #endif
 
