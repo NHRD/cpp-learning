@@ -2,7 +2,7 @@
 using namespace std;
 
 int factorial(int n){
-    static int result = 1;
+    int result = 1;
     for(int i = n; i >= 2; --i){
         result = result * i;
     }
