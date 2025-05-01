@@ -14,7 +14,7 @@ int main() {
     cout << endl;
     for (int j = 0; j < n; ++j) {
         cout << v2.capacity() << " ";
-        v2.push_back(i);
+        v2.push_back(j);
         }
     cout << endl;
 }
