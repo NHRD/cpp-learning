@@ -7,4 +7,9 @@ int main(){
     auto v2 = v;
     for (auto x : v2) cout << x << ", ";
     cout << endl;
+    v[0] = 100;
+    for (auto x : v) cout << x << ", ";
+    cout << endl;
+    for (auto x : v2) cout << x << ", ";
+    cout << endl;
 }
