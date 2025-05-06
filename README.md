@@ -20,9 +20,7 @@ This repository tracks my progress in learning C++. The goal is to record daily 
 
 ## Reference Resources
 
-- [Books/Courses]
-- [Websites referenced]
-- [Other learning resources]
+- [基礎からしっかり学ぶC++の教科書]
 
 ## Repository Structure
 
