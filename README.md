@@ -15,19 +15,7 @@ This repository tracks my progress in learning C++. The goal is to record daily 
 
 **Topics Studied**:
 
--
-
-**Concepts Understood**:
-
--
-
-**Challenges/Questions**:
-
--
-
-**Next Study Plan**:
-
--
+-Handlings of vector(references and copies)
 
 ## Reference Resources
 
@@ -39,11 +27,9 @@ This repository tracks my progress in learning C++. The goal is to record daily 
 
 ```bash
 cpp-learning/
-├── exercises/          # Practice exercises and code samples
-├── projects/           # Practical projects
-└── notes/              # Learning notes
+├── Chapter1-2/          # Practice codes for Chapter1-2 in the text book
+├── Chapter3/            # Practice codes for Chapter3 in the text book
+├── Chapter4/            # Practice codes for Chapter4 in the text book
+├── Chapter5/            # Practice codes for Chapter5 in the text book
+└── Chapter6/            # Practice codes for Chapter6 in the text book
 ```
-
-## Future Plans
-
--
