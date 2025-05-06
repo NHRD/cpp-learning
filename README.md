@@ -15,7 +15,8 @@ This repository tracks my progress in learning C++. The goal is to record daily 
 
 **Topics Studied**:
 
--Handlings of vector(references and copies)
+-Handlings of vector(references and copies).
+-Unordered map handling.
 
 ## Reference Resources
 
