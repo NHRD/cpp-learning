@@ -15,4 +15,21 @@ int main(){
         cout << a[i] << ", ";
     }
     cout << endl;
+
+    int b[] = {2, 3, 5, 7, 11};
+    size_t size = end(b) - begin(b);
+    cout << size << endl;
+
+    for(int i = 0; i < 5; ++i) {
+        cout << b[i] << ", ";
+    }
+    cout << endl;
+    for(auto& i : a) i *= 2;
+    for (size_t i = 0; i < 5; ++i) cout << a[i] << ", ";
+    cout << endl;
+    
+    for(int i = 0; i < 5; ++i) {
+        cout << a[i] << ", ";
+    }
+    cout << endl;
 }
