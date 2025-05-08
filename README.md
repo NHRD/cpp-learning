@@ -22,6 +22,11 @@ This repository tracks my progress in learning C++. The goal is to record daily 
 **Topics Studied**:
 -Handlings of pari, tuple, array
 
+### 2025-05-08
+
+**Topics Studied**:
+-Continued handling of array
+
 ## Reference Resources
 
 - 基礎からしっかり学ぶC++の教科書
