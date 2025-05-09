@@ -27,6 +27,11 @@ This repository tracks my progress in learning C++. The goal is to record daily 
 **Topics Studied**:
 -Continued handling of array
 
+### 2025-05-09
+
+**Topics Studied**:
+-Still continued handling of array, one step a day.
+
 ## Reference Resources
 
 - 基礎からしっかり学ぶC++の教科書
