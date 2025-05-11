@@ -35,7 +35,12 @@ This repository tracks my progress in learning C++. The goal is to record daily 
 ### 2025-05-10
 
 **Topics Studied**:
--Did end of chapter6 practice questions.
+-Did end of chapter6 practice question1.
+
+### 2025-05-11
+
+**Topics Studied**:
+-Did end of chapter6 practice question2.
 
 ## Reference Resources
 
