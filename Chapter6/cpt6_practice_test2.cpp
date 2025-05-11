@@ -11,5 +11,5 @@ int main(){
     auto taro = make_pair("Taro", 32);
     people["Taro"] = {"Taro", 100};
 
-    cout << people["Taro"].first << endl;
+    cout << people["Taro"].second << endl;
 }
