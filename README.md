@@ -42,6 +42,12 @@ This repository tracks my progress in learning C++. The goal is to record daily 
 **Topics Studied**:
 -Did end of chapter6 practice question2.
 
+### 2025-05-12
+
+**Topics Studied**:
+-Did end of chapter6 practice question3.
+-Rechecked Template functions.
+
 ## Reference Resources
 
 - 基礎からしっかり学ぶC++の教科書
