@@ -4,7 +4,7 @@ using namespace std;
 
 auto myReverse(int* m, int* pos){
     int size =  pos - m;
-    int* reversed = new int[size];
+    static int* reversed = new int[size];
     for (int i = 0; i < size; i++){
         reversed[i] = m[size - 1 - i];
        }
