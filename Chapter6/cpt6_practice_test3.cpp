@@ -2,12 +2,12 @@
 #include <vector>
 using namespace std;
 
-auto myReverse(const vector<int>& m, const int pos){
-    int newpos = 0;
-    int reversed[] = {};
-    for (int i = pos - 1; i <= 0; --i){
-        reversed[newpos] = m[i];
-    }
+auto myReverse(int* m, int* pos){
+    int size =  pos - m;
+    int* reversed = new int[size];
+    for (int i = 0; i < size; i++){
+        reversed[i] = m[size - 1 - i];
+       }
     return reversed;
 }
 
