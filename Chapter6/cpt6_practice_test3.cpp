@@ -2,13 +2,15 @@
 #include <vector>
 using namespace std;
 
-auto myReverse(int* m, int* pos){
-    int size =  pos - m;
-    static int* reversed = new int[size];
-    for (int i = 0; i < size; i++){
-        reversed[i] = m[size - 1 - i];
-       }
-    return reversed;
+template<typename T>
+void myReverse(T first, T last){
+    while (first < last) {
+        --last;
+        auto tmp = *last;
+        *last = *first;
+        *first = tmp;
+        ++first;
+        }
 }
 
 int main(){
