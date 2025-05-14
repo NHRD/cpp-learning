@@ -12,4 +12,6 @@ int main() {
     cout << str1 << endl;
 
     cout << (str1 == str2) << endl;
+
+    cout << str1.compare("Hello, Z!") << endl;
 }
