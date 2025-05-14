@@ -20,4 +20,12 @@ int main() {
     cout << "Not found!" << endl;
 
     cout << str1.rfind('o') << endl;
+
+    str1.replace(7, 5, "Nippon");
+    cout << str1 << endl;
+
+    cout << str1.substr(7, 6) << endl;
+    cout << str1 << endl;
+    str1.replace(7, 1, "NeoN");
+    cout << str1 << endl;
 }
