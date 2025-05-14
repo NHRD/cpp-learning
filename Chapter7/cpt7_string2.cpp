@@ -14,4 +14,8 @@ int main() {
     cout << (str1 == str2) << endl;
 
     cout << str1.compare("Hello, Z!") << endl;
+
+    cout << str1.find("World") << endl;
+    if (str1.find("world") == string::npos);
+    cout << "Not found!" << endl;
 }
