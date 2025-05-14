@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    string str1 = "Hello ";
+    string str1 = "Hello, ";
     string str2 = "World!";
 
     cout << str1[4] << endl;
@@ -18,4 +18,6 @@ int main() {
     cout << str1.find("World") << endl;
     if (str1.find("world") == string::npos);
     cout << "Not found!" << endl;
+
+    cout << str1.rfind('o') << endl;
 }
