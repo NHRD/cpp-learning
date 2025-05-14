@@ -10,5 +10,6 @@ int main() {
 
     str1 += str2;
     cout << str1 << endl;
-    
+
+    cout << (str1 == str2) << endl;
 }
