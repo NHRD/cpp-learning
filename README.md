@@ -48,6 +48,21 @@ This repository tracks my progress in learning C++. The goal is to record daily 
 -Did end of chapter6 practice question3.
 -Rechecked Template functions.
 
+### 2025-05-13
+
+**Topics Studied**:
+-String style.
+
+### 2025-05-14
+
+**Topics Studied**:
+-Still string style in chapter 7.
+
+### 2025-05-15
+
+**Topics Studied**:
+-Cstyle in chapter 7 of the text.
+
 ## Reference Resources
 
 - 基礎からしっかり学ぶC++の教科書
