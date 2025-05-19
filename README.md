@@ -52,16 +52,38 @@ This repository tracks my progress in learning C++. The goal is to record daily 
 
 **Topics Studied**:
 -String style.
+-Did end of chapter6 practice question3.
+-Rechecked Template functions.
 
 ### 2025-05-14
 
 **Topics Studied**:
+
 -Still string style in chapter 7.
+-Did end of chapter6 practice question3.
+-Rechecked Template functions.
+
 
 ### 2025-05-15
 
 **Topics Studied**:
 -Cstyle in chapter 7 of the text.
+-string handling
+
+### 2025-05-16
+
+**Topics Studied**:
+-string handling
+
+### 2025-05-17
+
+**Topics Studied**:
+-string handling
+
+### 2025-05-18
+
+**Topics Studied**:
+-string handling
 
 ## Reference Resources
 
