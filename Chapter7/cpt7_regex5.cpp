@@ -11,3 +11,4 @@ int main() {
         cout << *HRD++ << endl;
     }
 }
+//  modified the name of objects.
