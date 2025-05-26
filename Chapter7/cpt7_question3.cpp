@@ -10,7 +10,7 @@ int main(){
     sregex_iterator it2(str.begin(), str.end(), rx2);
     sregex_iterator end;
     while (it1 != end && it2 != end) {
-        cout << (it1++)->str() << endl;
+        cout << (it1++)->str().substr(0, 3) << endl;
         cout << (it2++)->str() << endl;
     }
 
