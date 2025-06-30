@@ -1,5 +1,6 @@
 #include <iostream>
 #include <random>
+#include <map>
 using namespace std;
 
 int main() {
@@ -13,4 +14,15 @@ int main() {
     for (int i = 0; i < 5; ++i) {
         cout << dist2(engine) << ", ";
     }
-}
+    map<int, int> frequency;
+    normal_distribution<double> dist3(50.0, 5.0);
+    for (int i = 0; i < 500; ++i) {
+        double x = dist3(engine);
+        ++frequency[static_cast<int>(x)];
+        }
+    for (auto p: frequency) {
+        cout << p.first << " | ";
+        for (int i = 0; i < p.second; ++i)  cout << "*";
+        cout << endl;
+        }
+    }
